@@ -5,7 +5,7 @@ const app = express();
 //Starts the server
 
 let server = app.listen(process.env.port, function () {
-  console.log("Server is running");
+  console.log("Server isS running");
 });
 
 app.use(express.static("public"));
